@@ -88,7 +88,7 @@ net start MySQL80
 ### Step 2: Run the Application
 
 #### Option A: Run directly in VS Code (Recommended)
-1. Open VS Code and open folder `c:\Users\SAI\Desktop\Lab\IWP\ex07`.
+1. Open VS Code and open folder `c:\Users\Desktop\Lab\IWP\ex07`.
 2. Open `src/main/java/com/example/studentcrud/StudentCrudApplication.java`.
 3. Click the **`Run`** button that appears right above `public static void main(String[] args)` (or press `F5`).
 4. Watch the integrated terminal until you see:
@@ -100,7 +100,7 @@ net start MySQL80
 #### Option B: Run via Maven CLI
 Open Command Prompt in `ex07` and run:
 ```cmd
-cd c:\Users\SAI\Desktop\Lab\IWP\ex07
+cd c:\Users\Desktop\Lab\IWP\ex07
 mvn clean package -DskipTests
 mvn spring-boot:run
 ```
