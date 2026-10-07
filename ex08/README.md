@@ -38,7 +38,7 @@ ex08/
 ## 3. How to Run the Application
 
 ### Option A: Run directly in VS Code (Recommended)
-1. Open folder `c:\Users\SAI\Desktop\Lab\IWP\ex08` in VS Code.
+1. Open folder `c:\Users\Desktop\Lab\IWP\ex08` in VS Code.
 2. Open `src/main/java/com/example/aopdemo/AopDemoApplication.java`.
 3. Click the **`Run`** button that appears right above `public static void main(String[] args)` (or press `F5`).
 4. Watch the VS Code integrated terminal start the server:
@@ -50,7 +50,7 @@ ex08/
 ### Option B: Run via Maven CLI
 Open Command Prompt in `ex08` and run:
 ```cmd
-cd c:\Users\SAI\Desktop\Lab\IWP\ex08
+cd c:\Users\Desktop\Lab\IWP\ex08
 mvn clean package -DskipTests
 mvn spring-boot:run
 ```
